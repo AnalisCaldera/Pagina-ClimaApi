@@ -380,76 +380,6 @@ footer{
     display: none;
 }
 
-
-@media((min-width: 461px) and (max-width: 600px)){
-    header{
-        width: 99%;
-        height: auto;
-        display: flex;
-    }
-    .div1, .div2, .div3, .div4, .div5,.div6,.div7,.div8{
-        width: 170px;
-        height: 170px;
-        background-size: 170px 170px;
-    }
-    .encabezado{
-        top: 190px;
-        left: 0px;
-    }
-    .encabezado h1{
-        font-size: 4rem;
-    }
-    .encabezado h3{
-        font-size: 28px;
-    }
-
-
-    .fondo-pronost{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        width: 99%;
-        height: auto;
-    }
-    .invitacion{
-        width: 90%;
-    }
-    .invitacion-imagen{
-        display: flex;
-        justify-content: center;
-    }
-    .invitacion-imagen img{
-        width: 80%;
-    }
-
-    .pronostico{
-        width: 99%;
-        display: flex;
-        flex-direction: column;
-        padding: 0px;
-        height: auto;
-    }
-    .formul{
-        margin-right: 0px;
-    }
-    .contenedor-respuesta{
-        width: 99%;
-        overflow-y: unset;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    footer{
-        width: 99%;
-        height: auto;
-    }
-    
-    .inactive {
-        display: none;
-    }
-}
-
 @media((min-width: 300px) and (max-width: 460px)){
     header{
         width: 99%;
@@ -522,6 +452,75 @@ footer{
     .info a{
         width: 110px;
     }
+    .inactive {
+        display: none;
+    }
+}
+
+@media((min-width: 461px) and (max-width: 600px)){
+    header{
+        width: 99%;
+        height: auto;
+        display: flex;
+    }
+    .div1, .div2, .div3, .div4, .div5,.div6,.div7,.div8{
+        width: 170px;
+        height: 170px;
+        background-size: 170px 170px;
+    }
+    .encabezado{
+        top: 190px;
+        left: 0px;
+    }
+    .encabezado h1{
+        font-size: 4rem;
+    }
+    .encabezado h3{
+        font-size: 28px;
+    }
+
+
+    .fondo-pronost{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 99%;
+        height: auto;
+    }
+    .invitacion{
+        width: 90%;
+    }
+    .invitacion-imagen{
+        display: flex;
+        justify-content: center;
+    }
+    .invitacion-imagen img{
+        width: 80%;
+    }
+
+    .pronostico{
+        width: 99%;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        height: auto;
+    }
+    .formul{
+        margin-right: 0px;
+    }
+    .contenedor-respuesta{
+        width: 99%;
+        overflow-y: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer{
+        width: 99%;
+        height: auto;
+    }
+    
     .inactive {
         display: none;
     }

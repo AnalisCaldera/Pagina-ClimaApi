@@ -167,7 +167,7 @@ header{
     flex-direction: column;
     justify-content: space-around;
     width: 430px;
-    background-image: url(/img/playa.jpeg);
+    background-image: url( https://analiscaldera.github.io/ClimaApi/img/playa.jpeg);
     background-size: 430px 550px;
     align-items: center;
     height: 550px;

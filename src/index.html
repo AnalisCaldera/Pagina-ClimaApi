@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClimaApi</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div class="div4"></div>
+        <div class="div5"></div>
+        <div class="div6"></div>
+        <div class="div7"></div>
+        <div class="div8"></div>
+        <!-- <img src="/img/tormenta.webp" alt="Imagen 1"> -->
+              
+        <div class="encabezado">
+            <h1>ClimaApi</h1>
+            <h3>Consulta el pronóstico del clima en tu ciudad</h3>
+            <a href="#pronostico">
+                <button class="boton-empezar">Comenzar</button>
+            </a>
+        </div>
+    </header>
+
+    <section>
+        <div class="fondo-pronost">
+            <div class="invitacion">
+                <h3>¡Descubre el clima con solo un clic!</h3>
+                 <p>No más sorpresas repentinas, planifica tu día con confianza. Nuestro equipo de expertos en meteorología está listo para brindarte información detallada sobre el clima de tu área. ¿Lluvia, sol o nieve? Obtén respuestas instantáneas y toma decisiones con nuestra página web de consultas del pronóstico del clima.</p> 
+            </div>
+
+            <div class="invitacion-imagen">
+                <img src="img/ClimaApi.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="pronostico" class="pronostico inactive">
+        <div class="contenedor-formulario">
+            <div class="formul inactive">
+                <p>Ingrese los datos</p>
+    
+                <form action="" id="formulario">
+                    <label for="ciudad">Ciudad</label>
+                    <input type="text" id="ciudad" required autofocus placeholder="Ciudad">
+    
+                    <label for="estado">Estado</label>
+                    <input type="text" id="estado" placeholder="Estado">
+    
+                    <label for="pais">Pais</label>
+                    <input type="text" id="pais" required placeholder="Pais">
+
+                    <p class="lista-pronostico">Pronóstico:</p>
+                    <ul class="opcion-pronostico">
+                        <li>
+                            <input type="radio" id="un-dia" name="pronostico" value="1" checked>
+                            <label for="un-dia">Actual</label>
+                        </li>
+
+                        <li>
+                            <input type="radio" id="cinco-dia" name="pronostico" value="5">
+                            <label for="cinco-dia">Por 5 días</label>
+                        </li>
+                    </ul>
+                        
+                    <input type="submit" class="boton-consultar" id="consultar" value="Enviar">
+                </form>
+    
+                <p>Nota: Rellene todos los espacios</p>
+            </div>
+
+            <button class="boton-limpiar">Limpiar</button>
+        </div>
+
+        <div class="contenedor-respuesta">
+            <!-- <div class="respuesta-pronostico inactive">
+                    <div class="fecha">
+                        <p>Fecha</p>
+                    </div>
+                    
+                    <div class>
+                        <div class="temperatura">
+                            <p>Soleado</p>
+                            <p>34,5°</p>
+                            <p>Soleado</p>
+                            <p>34,5°</p>
+                        </div>
+
+                        <img src="/img/playa.jpeg" alt="icon">
+                    </div>
+
+                    <div class="region">
+                        <p>Ciudad / Estado / Pais</p>
+                    </div>
+            </div> -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="info">
+            <p>ClimaApi</p>
+            <p>Página web creada con HTML, CSS y JavaScript, realizando consultas meteorológicas a través de la API WeatherApi</p>
+            <p>Para más información de la API, visitar el sitio web</p>
+            <a href="https://www.weatherapi.com/">
+                <img src="img/weatherapi_logo.webp" alt="">WeatherApi.com</a>
+        </div>
+
+        <div class="contacto">
+            <p>Analis Caldera</p> 
+            <p>Ingeníera de Sistemas y Desarrollador Frontend</p>
+            <p>Contacto</p>
+            <div>
+                <a href="https://wa.link/bxk3hv">
+                    <img src="img/whatsapp.jpg" alt=""></a>
+                <a href="https://www.linkedin.com/in/analis-caldera-ba8727287/">
+                    <img src="img/linkedin.png" alt=""></a>
+                <a href="https://github.com/AnalisCaldera">
+                    <img src="img/github.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

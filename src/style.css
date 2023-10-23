@@ -380,7 +380,8 @@ footer{
     display: none;
 }
 
-@media(max-width: 600px){
+
+@media((min-width: 461px) and (max-width: 600px)){
     header{
         width: 99%;
         height: auto;
@@ -449,7 +450,84 @@ footer{
     }
 }
 
-@media((min-width: 600px) and (max-width: 990px)){
+@media((min-width: 300px) and (max-width: 460px)){
+    header{
+        width: 99%;
+        height: auto;
+        display: flex;
+    }
+    .div1, .div2, .div3, .div4, .div5,.div6,.div7,.div8{
+        width: 120px;
+        height: 120px;
+        background-size: 120px 120px;
+    }
+    .encabezado{
+        top: 140px;
+        left: 0px;
+    }
+    .encabezado h1{
+        font-size: 3rem;
+    }
+    .encabezado h3{
+        font-size: 24px;
+    }
+
+
+    .fondo-pronost{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 99%;
+        height: auto;
+    }
+    .invitacion{
+        width: 90%;
+    }
+    .invitacion h3{
+        font-size: 2rem;
+    }
+    .invitacion-imagen{
+        display: flex;
+        justify-content: center;
+    }
+    .invitacion-imagen img{
+        width: 80%;
+    }
+
+    .pronostico{
+        width: 99%;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        height: auto;
+    }
+    .formul{
+        margin-right: 0px;
+    }
+    .contenedor-respuesta{
+        width: 99%;
+        overflow-y: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer{
+        width: 99%;
+        height: auto;
+    }
+    .info a div{
+        display: none;    
+    }
+    .info a{
+        width: 110px;
+    }
+    .inactive {
+        display: none;
+    }
+}
+
+@media((min-width: 601px) and (max-width: 990px)){
     header{
         width: 99%;
         height: auto;

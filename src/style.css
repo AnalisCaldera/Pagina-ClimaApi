@@ -380,6 +380,7 @@ footer{
     display: none;
 }
 
+
 @media((min-width: 300px) and (max-width: 460px)){
     header{
         width: 99%;
@@ -406,7 +407,6 @@ footer{
     .fondo-pronost{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         width: 99%;
         height: auto;
     }
@@ -433,13 +433,41 @@ footer{
     }
     .formul{
         margin-right: 0px;
+        background-size: 310px 550px;
+        width: 310px;
+    }
+    .formul p:nth-child(1){
+        width: auto;
+    }
+    label, .lista-pronostico {
+        font-size: 16px;
     }
     .contenedor-respuesta{
-        width: 99%;
+        width: 98%;
         overflow-y: unset;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .respuesta-pronostico{
+        width: 270px;
+    }
+    .temperatura p:nth-child(1), .temperatura p:nth-child(3){
+        font-size: 16px;
+    }
+    .temperatura p:nth-child(2), .temperatura p:nth-child(4){
+        font-size: 20px;
+    }
+    .fecha, .region{
+        width: 270px;
+        font-size: 20px;
+    }
+
+    .min-max{
+        font-size: 16px;
+    }
+    .valor-min-max{
+        font-size: 20px;
     }
 
     footer{
@@ -457,7 +485,7 @@ footer{
     }
 }
 
-@media((min-width: 461px) and (max-width: 600px)){
+@media((min-width: 461px) and (max-width: 670px)){
     header{
         width: 99%;
         height: auto;
@@ -483,7 +511,6 @@ footer{
     .fondo-pronost{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         width: 99%;
         height: auto;
     }
@@ -508,8 +535,11 @@ footer{
     .formul{
         margin-right: 0px;
     }
+    .formul p:nth-child(1) {
+        width: auto;
+    }
     .contenedor-respuesta{
-        width: 99%;
+        width: 98%;
         overflow-y: unset;
         display: flex;
         flex-direction: column;
@@ -526,7 +556,7 @@ footer{
     }
 }
 
-@media((min-width: 601px) and (max-width: 990px)){
+@media((min-width: 671px) and (max-width: 1100px)){
     header{
         width: 99%;
         height: auto;
@@ -538,8 +568,8 @@ footer{
         background-size: 220px 220px;
     }
     .encabezado{
-        top: 150px;
-        left: 160px;
+        top: 160px;
+        left: 220px;
     }
     .encabezado h1{
         font-size: 5rem;

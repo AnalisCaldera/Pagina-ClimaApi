@@ -176,8 +176,13 @@ botonComienza.addEventListener('click', () =>{
     sectionFormul.classList.remove('inactive');
 })
 
+inputConsultar.addEventListener('click', () =>{
+    sectionFormul.classList.add('inactive');
+})
+
 botonEliminar.addEventListener('click', () =>{
     [...contenedorPredicciones.childNodes].forEach((item) =>{
         item.remove();
     })
+    sectionFormul.classList.remove('inactive');
 })
